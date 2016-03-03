@@ -51,8 +51,8 @@ module.exports = function(grunt) {
           amdModuleId: 'videojs-contrib-ads',
           globalAlias: 'videojs-contrib-ads',
           deps: {
-            default: ['videojs'],
-            amd: ['videojs'],
+            default: ['video.js'],
+            amd: ['video.js'],
             cjs: ['video.js']
           }
         }
